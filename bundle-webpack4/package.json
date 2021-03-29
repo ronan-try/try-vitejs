@@ -8,7 +8,8 @@
     "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "webpack:output": "vue-cli-service inspect > webpack.output.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
