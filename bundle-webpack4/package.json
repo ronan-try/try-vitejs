@@ -24,6 +24,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "vue-cli-plugin-element-plus": "^0.0.13",
     "webpack-bundle-analyzer": "^4.4.0"
   },
   "eslintConfig": {
