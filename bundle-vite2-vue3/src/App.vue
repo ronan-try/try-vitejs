@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div v-loading="true">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome !!!" />
+    <img alt="Vue logo" src="./assets/logo.png" />
+  </div>
 </template>
 
 <script setup>
