@@ -1,6 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld
+    v-loading="true"
+    msg="Welcome to Your Vue.js App"
+  />
+  <img alt="Vue logo" src="./assets/logo.png">
 </template>
 
 <script>
@@ -10,7 +14,7 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
 }
 </script>
 
