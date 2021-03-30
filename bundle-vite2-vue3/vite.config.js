@@ -6,11 +6,15 @@ import analyze from 'rollup-plugin-analyzer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
-  rollupOptions: {
-    plugins: [
-      analyze(),
-      visualizer()
-    ],
-  },
+  plugins: [
+    vue(),
+    // analyze(),
+    visualizer()
+  ],
+  // rollupOptions: {
+  //   plugins: [
+  //     analyze(),
+  //     visualizer()
+  //   ],
+  // },
 })
