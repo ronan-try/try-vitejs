@@ -7,7 +7,9 @@
 <script>
 import * as XLSX from 'xlsx'
 
-console.log(XLSX.version)
-
-export default {}
+export default {
+  created() {
+    console.log(XLSX.version)
+  }
+}
 </script>
