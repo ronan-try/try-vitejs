@@ -23,3 +23,31 @@ const _import = (file: string) => import('@/views/' + file + '.vue');
 
 `dynamic imort` 在TC95的Stage4阶段
 实际的逻辑是，会扫描
+
+
+打包？
+将大文件的诞生扼杀在摇篮里
+vite webpack4 webpack5 针对CJS
+我已经做了Code Spliting，为什么还那么大
+http://wiki.ziroom.com/pages/viewpage.action?pageId=632550472
+
+0. 实践1%的web打包体系
+1. 罗列打包问题
+2. 罗列现在各种打包骚操作，这是一篇https://www.jianshu.com/p/a64735eb0e2b/  将react单独entry一下
+
+3. 打包实验
+webapck4 打包vue3 + elementPlus，
+得出哪些指标：webpack.output.js  splitChunks 的chunks和priority权重
+initial webapck分析图+main.ts的分析图，实践证明ok的
+async: 动态的
+webpack4 打包react + ant Design
+
+vite打包vue3 + elementPlus
+vite打包react + angt Design
+
+4. code split, tree-shaking
+
+结论：叭叭叭叭叭叭叭叭，将18年时候的话题，归归类
+
+蹭热度：现21年的热门话题是打包工具的编译速度
+webpack5 消息
